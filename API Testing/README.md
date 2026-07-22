@@ -16,20 +16,20 @@ https://rahulshettyacademy.com/Library
 
 ## Cobertura
 ### Funcionales
-- Agregar libro exitosamente
+#### Agregar libro exitosamente
 - Validar status code
 - Validar estructura del JSON
 - Validar tiempo de respuesta < 500 ms
 - Validar que el ID sea isbn + aisle
 - Validar error al enviar aisle inválido
 
-- Obtener libro existente
+#### Obtener libro existente
 - Validar status code
 - Validar estructura del JSON
 - Validar tiempo de respuesta < 500 ms
 - Validar error para libro inexistente
 
-- Eliminar libro existente
+#### Eliminar libro existente
 - Validar status code
 - Validar estructura del JSON
 - Validar tiempo de respuesta < 500 ms
