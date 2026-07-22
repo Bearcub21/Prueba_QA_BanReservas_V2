@@ -7,7 +7,7 @@ export function createBook(overrides?: Partial<AddBookRequest>): AddBookRequest 
     name: `Libro QA ${unique}`,
     isbn: `isbn${unique.slice(-6)}`,
     aisle: `${Math.floor(Math.random() * 9000) + 1000}`,
-    author: 'Manuel Peña',
+    author: 'John',
     ...overrides
   };
 }
