@@ -43,5 +43,3 @@ Este repositorio también podría integrarse a un flujo de integración continua
 - publicación de reportes de ejecución como artefactos,
 - separación por tipo de prueba para facilitar la trazabilidad de fallos.
 
-Este README tiene un enfoque general: resumir el propósito del repositorio y orientar al lector hacia la carpeta correcta según el tipo de prueba que desea revisar o ejecutar.
-
