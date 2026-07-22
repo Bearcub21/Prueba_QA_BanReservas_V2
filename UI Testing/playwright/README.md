@@ -29,7 +29,7 @@ npm test
 
 - `npm run test:headed` — ejecutar las pruebas con la interfaz visual del navegador.
 - `npm run test:report` — abrir el reporte HTML de Playwright.
-- 
+  
 ## Notas
 
 - El framework está limitado a Chromium. Puede extenderse si se desea a los demas navegadores disponibles en Playwright. 
