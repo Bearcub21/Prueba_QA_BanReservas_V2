@@ -1,0 +1,15 @@
+{
+  "name": "api-library-automation",
+  "version": "1.0.0",
+  "description": "Automatización de pruebas API REST con Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:functional": "playwright test tests/functional",
+    "test:integration": "playwright test tests/integration",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "zod": "^3.23.8"
+  }
+}

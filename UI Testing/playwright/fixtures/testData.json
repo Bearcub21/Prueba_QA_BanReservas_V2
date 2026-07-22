@@ -1,0 +1,12 @@
+{
+  "valid_user": {
+    "username": "manuelp_01",
+    "password": "a*fyUkNk*PT1j39"
+  },
+  "invalid_user": {
+    "username": "wrong_user",
+    "password": "wrong_password"
+  },
+  "existing_keyword": "Git Pocket Guide",
+  "non_existing_keyword": "LibroInventado123XYZ"
+}

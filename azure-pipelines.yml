@@ -1,0 +1,33 @@
+trigger:
+  branches:
+    include:
+      - main
+      - master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '20.x'
+    displayName: 'Install Node.js'
+
+  - script: |
+      cd "UI Testing/playwright"
+      npm ci
+      npm run install:browsers
+    displayName: 'Install dependencies and browser'
+
+  - script: |
+      cd "UI Testing/playwright"
+      npm test
+    displayName: 'Run Playwright tests'
+
+  - task: PublishPipelineArtifact@1
+    inputs:
+      targetPath: 'UI Testing/reports/html-report'
+      artifact: 'playwright-report'
+      publishLocation: 'pipeline'
+    condition: succeededOrFailed()
+    displayName: 'Publish Playwright report'
