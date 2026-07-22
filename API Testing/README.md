@@ -41,6 +41,3 @@ https://rahulshettyacademy.com/Library
 - Eliminar 2 libros
 - Confirmar que ya no existen
 
-## Instalación
-```bash
-npm install
