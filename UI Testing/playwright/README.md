@@ -29,11 +29,8 @@ npm test
 
 - `npm run test:headed` — ejecutar las pruebas con la interfaz visual del navegador.
 - `npm run test:report` — abrir el reporte HTML de Playwright.
-- `npm run lint` — analizar los archivos TypeScript con lint.
-- `npm run format` — formatear los archivos fuente con Prettier.
-
+- 
 ## Notas
 
-- El framework está intencionalmente limitado a Chromium.
+- El framework está limitado a Chromium. Puede extenderse si se desea a los demas navegadores disponibles en Playwright. 
 - Los archivos BDD se conservan como documentación mientras las pruebas de Playwright implementan los flujos automatizados.
-- El framework está preparado para adaptación en CI, incluyendo Azure DevOps.
